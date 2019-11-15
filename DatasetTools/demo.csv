@@ -1,0 +1,5 @@
+Date;Start;End;Where;Who;What;How many;country;Author
+{today};{today(-55)};{today(100)};Paris;Jean-{randu1str(12)};{randstr(12)};{randnum(5)}; FRANCE;Balzac
+{today};{today(-10)};{today(10)};Marseille;Jean-{randu1str(12)};{randstr(12)};{randnum(5)}; FRANCE;Voltaire
+{today};{today};{today(100)};Lyon;Jean-{randu1str(12)};{randstr(12)};{randnum(5)}; {randcountry()};Montesquieu
+{today};{today(-55)};{today};Bordeaux;Jean-{randu1str(12)};{randstr(12)};{randnum(5)}; {randcountry(FRANCE)};Napoléon
